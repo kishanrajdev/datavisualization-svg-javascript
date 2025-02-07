@@ -18,7 +18,7 @@ function createSVG() {
 
   document.body.appendChild(svg);
 
-  let i = windowWidth;
+  let i = windowWidth * 2;
   let colorPicker = 0;
   while (i > 0) {
     colorPicker = colorPicker % 8;
